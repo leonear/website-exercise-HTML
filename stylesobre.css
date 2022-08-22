@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@700&display=swap');
+
+body {
+    background-color: antiquewhite;
+    width: auto;
+    display: block;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(240, 102, 102);
+}
+
+header h1 a {
+    font-size: 200px;
+    text-decoration: none;
+    font-family: 'Bungee', cursive;
+    color: black;
+}
+
+nav {
+    margin: auto;
+    background-color: rgb(5, 5, 5);
+    position: relative;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 70px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+#menu .nav-bar {
+    list-style: none; 
+    margin-top: 40px; 
+}
+
+#menu .nav-bar li { 
+    display: inline; 
+    padding: 0 20px; 
+}
+
+.nav-bar a:hover {
+	background:rgb(201, 76, 76);
+  border-radius: 50%;
+  transition: 10ms;
+}
+
+img {
+    max-width: 100%;
+}
+
+.welcome {
+   text-align: center;
+   margin-top: 7%;
+   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+   font-size: 40px;
+}
+
+.text {
+    text-align: justify;
+   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+   font-size: 25px;
+   margin-left: 7%;
+   margin-right: 7%;
+}
+
+#text-bottom {
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 10%;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 400px;
+}
