@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Quicksand:wght@700&display=swap');
+
+body {
+    background-color: antiquewhite;
+    width: auto;
+    display: block;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(240, 102, 102);
+}
+
+header h1 a {
+    font-size: 200px;
+    text-decoration: none;
+    font-family: 'Bungee', cursive;
+    color: black;
+}
+
+nav {
+    margin: auto;
+    background-color: rgb(5, 5, 5);
+    position: relative;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 70px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+#menu .nav-bar {
+    list-style: none; 
+    margin-top: 40px; 
+}
+
+#menu .nav-bar li { 
+    display: inline; 
+    padding: 0 20px; 
+}
+
+.nav-bar a:hover {
+	background:rgb(201, 76, 76);
+  border-radius: 50%;
+  transition: 10ms;
+}
+
+.helptext {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#formulario {
+    padding-top: 5%;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+}
+
+#formulario fieldset {
+    margin-left: 24%;
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+fieldset label {
+    float: left;
+    margin-top: 15px;
+}
+
+fieldset input{
+    float: right;
+    width: 700px;
+    height: 25px;
+    margin-top: 18px;
+}
+
+.textao {
+    width: 400px;
+}
